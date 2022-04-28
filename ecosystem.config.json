@@ -1,7 +1,7 @@
 {
     "apps": [
       {
-        "name": "bsc-testnet-dex",
+        "name": "harmony-dex",
         "script": "server.js",
         "exec_mode": "cluster_mode",
         "instances": 1,
