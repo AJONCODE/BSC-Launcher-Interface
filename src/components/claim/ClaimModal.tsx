@@ -136,7 +136,7 @@ export default function ClaimModal() {
           </ModalUpper>
           <AutoColumn gap="md" style={{ padding: '1rem', paddingTop: '0' }} justify="center">
             <TYPE.subHeader fontWeight={500}>
-              As a member of the Harmony Launcher community you may claim BNB to be used for voting and governance. <br /> <br />
+              As a member of the Binance Testnet Dex community you may claim BNB to be used for voting and governance. <br /> <br />
               {/*<ExternalLink href="https://uniswap.org/blog/uni">Read more about BNB</ExternalLink>*/}
             </TYPE.subHeader>
             <ButtonPrimary
@@ -184,7 +184,7 @@ export default function ClaimModal() {
                   <span role="img" aria-label="party-hat">
                     🎉{' '}
                   </span>
-                  Welcome to team Harmony Launcher :){' '}
+                  Welcome to team Binance Testnet Dex :){' '}
                   <span role="img" aria-label="party-hat">
                     🎉
                   </span>

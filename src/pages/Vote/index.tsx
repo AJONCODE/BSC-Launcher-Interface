@@ -135,7 +135,7 @@ export default function Vote() {
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                BNB tokens represent voting shares in Harmony Launcher governance. You can vote on each proposal yourself or
+                BNB tokens represent voting shares in Binance Testnet Dex governance. You can vote on each proposal yourself or
                   delegate your votes to a third party.
                 </TYPE.white>
               </RowBetween>

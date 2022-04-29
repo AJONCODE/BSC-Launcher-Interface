@@ -62,8 +62,7 @@ export const CUSTOM_BASES: { [chainId in ChainId]?: { [tokenAddress: string]: To
 // used for display in the default list when adding liquidity
 export const SUGGESTED_BASES: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.HARMONY]: [...WETH_ONLY[ChainId.HARMONY],DAI, HARL],
-  [ChainId.HARMONY_TESTNET]: [...WETH_ONLY[ChainId.HARMONY_TESTNET],CryptoDakuOfficial],
+  [ChainId.HARMONY]: [...WETH_ONLY[ChainId.HARMONY],DAI, HARL]
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -183,5 +182,5 @@ export const BLOCKED_PRICE_IMPACT_NON_EXPERT: Percent = new Percent(JSBI.BigInt(
 export const MIN_ETH: JSBI = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(16)) // .01 ETH
 export const BETTER_TRADE_LINK_THRESHOLD = new Percent(JSBI.BigInt(75), JSBI.BigInt(10000))
 
-// the Harmony launcher Default token list lives here
+// the Binance Testnet Dex Default token list lives here
 export const DEFAULT_TOKEN_LIST_URL = 'https://unpkg.com/harmonydex-default-token-list@1.0.6/build/harmonydex-default.tokenlist.json'

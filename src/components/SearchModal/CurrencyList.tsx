@@ -93,7 +93,7 @@ function CurrencyRow({
   otherSelected: boolean
   style: CSSProperties
 }) {
-console.log('currency' , currency)
+
 
   const { account, chainId } = useActiveWeb3React()
   const key = currencyKey(currency)
@@ -174,9 +174,10 @@ export default function CurrencyList({
   showETH: boolean
 }) {
   const itemData = useMemo(() => (showETH ? [Currency.ETHER, ...currencies] : currencies), [currencies, showETH])
-
+  console.log('currency' , Currency.ETHER,currencies)
   const Row = useCallback(
     ({ data, index, style }) => {
+      
       const currency: Currency = data[index]
       const isSelected = Boolean(selectedCurrency && currencyEquals(selectedCurrency, currency))
       const otherSelected = Boolean(otherCurrency && currencyEquals(otherCurrency, currency))

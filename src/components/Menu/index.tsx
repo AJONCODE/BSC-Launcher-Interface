@@ -85,7 +85,7 @@ const MenuItem = styled(ExternalLink)`
   }
 `
 
-const CODE_LINK = 'https://github.com/sameepsi/Harmony Launcher-interface'
+const CODE_LINK = 'https://github.com/sameepsi/Binance Testnet Dex-interface'
 
 export default function Menu() {
   const { account } = useActiveWeb3React()

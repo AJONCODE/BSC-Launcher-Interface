@@ -71,6 +71,6 @@ export default function VersionSwitch() {
   return versionSwitchAvailable ? (
     toggle
   ) : (
-    <MouseoverTooltip text="This page is only compatible with Harmony Launcher.">{toggle}</MouseoverTooltip>
+    <MouseoverTooltip text="This page is only compatible with Binance Testnet Dex.">{toggle}</MouseoverTooltip>
   )
 }

@@ -170,7 +170,7 @@ export default function AddressClaimModal({ isOpen, onDismiss }: { isOpen: boole
                   <span role="img" aria-label="party-hat">
                     🎉{' '}
                   </span>
-                  Welcome to team Harmony Launcher :){' '}
+                  Welcome to team Binance Testnet Dex :){' '}
                   <span role="img" aria-label="party-hat">
                     🎉
                   </span>

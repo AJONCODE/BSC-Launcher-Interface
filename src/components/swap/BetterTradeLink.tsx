@@ -42,7 +42,7 @@ export default function BetterTradeLink({ version }: { version: Version }) {
     <VersionLinkContainer>
       There is a better price for this trade on{' '}
       <StyledInternalLink to={linkDestination}>
-        <b>Harmony Launcher {version.toUpperCase()} ↗</b>
+        <b>Binance Testnet Dex {version.toUpperCase()} ↗</b>
       </StyledInternalLink>
     </VersionLinkContainer>
   )
@@ -67,7 +67,7 @@ export function DefaultVersionLink() {
     <VersionLinkContainer>
       Showing {version.toUpperCase()} price.{' '}
       <StyledInternalLink to={linkDestination}>
-        <b>Switch to Harmony Launcher {DEFAULT_VERSION.toUpperCase()} ↗</b>
+        <b>Switch to Binance Testnet Dex {DEFAULT_VERSION.toUpperCase()} ↗</b>
       </StyledInternalLink>
     </VersionLinkContainer>
   )

@@ -50,11 +50,11 @@ export default function Earn() {
           <CardSection>
             <AutoColumn gap="md">
               <RowBetween>
-                <TYPE.white fontWeight={600}>Harmony Launcher liquidity mining</TYPE.white>
+                <TYPE.white fontWeight={600}>Binance Testnet Dex liquidity mining</TYPE.white>
               </RowBetween>
               <RowBetween>
                 <TYPE.white fontSize={14}>
-                  Deposit your Liquidity Provider tokens to receive BNB, the Harmony Launcher protocol governance token.
+                  Deposit your Liquidity Provider tokens to receive BNB, the Binance Testnet Dex protocol governance token.
                 </TYPE.white>
               </RowBetween>{' '}
               {/*<ExternalLink
