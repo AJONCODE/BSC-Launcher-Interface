@@ -120,8 +120,10 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "bsc-testnet-dex-sdk": "^4.0.5",
+    "core-js": "^3.22.3",
     "express": "^4.17.3",
     "path": "^0.12.7",
+    "react-app-polyfill": "^3.0.0",
     "react-toastify": "^6.2.0",
     "yarn": "^1.22.17"
   }
