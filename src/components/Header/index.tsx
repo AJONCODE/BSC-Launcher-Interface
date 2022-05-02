@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next'
 
 import styled from 'styled-components'
 
+import BinanceLogo from '../../assets/images/binance-logo.png';
 //import Logo from '../../assets/images/logo_h_l.png';
 import { useActiveWeb3React } from '../../hooks'
 //import { useDarkModeManager } from '../../state/user/hooks'
@@ -204,7 +205,7 @@ const StyledNavLink = styled(NavLink).attrs({
 
 
 const NETWORK_LABELS: { [chainId in ChainId]: string | undefined } = {
-  
+
   [ChainId.HARMONY_TESTNET]: 'TESTNET',
   [ChainId.HARMONY]: 'HARMONY'
 }
@@ -234,16 +235,23 @@ export default function Header() {
 
   return (
     <HeaderFrame>
-      
+
       <ClaimModal />
       <Modal isOpen={showUniBalanceModal} onDismiss={() => setShowUniBalanceModal(false)}>
         <UniBalanceContent setShowUniBalanceModal={setShowUniBalanceModal} />
       </Modal>
       <HeaderRow>
         <Title href=".">
-        <UniIcon>
-            <p>Binance Testnet</p>
-          </UniIcon>
+          <div style={{ display: 'flex' }}>
+            <UniIcon>
+              <img src={BinanceLogo} style={{ height: '3rem' }} />
+            </UniIcon>
+            <StyledNavLink id={`swap-nav-link`} to={'/'}>
+            {t('BSC DEX')}
+          </StyledNavLink>
+
+          </div>
+
         </Title>
         <HeaderLinks>
           <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
@@ -262,9 +270,9 @@ export default function Header() {
           >
             {t('pool')}
           </StyledNavLink>
-         
 
-        
+
+
         </HeaderLinks>
       </HeaderRow>
       <HeaderControls>
@@ -274,7 +282,7 @@ export default function Header() {
               <NetworkCard title={NETWORK_LABELS[chainId]}>{NETWORK_LABELS[chainId]}</NetworkCard>
             )}
           </HideSmall>
-          
+
           <AccountElement active={!!account} style={{ pointerEvents: 'auto' }}>
             {account && Number(userEthBalance?.toSignificant(4)) > 0 ? (
               <BalanceText style={{ flexShrink: 0 }} pl="0.75rem" pr="0.5rem" fontWeight={500}>
