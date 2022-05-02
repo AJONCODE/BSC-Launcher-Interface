@@ -41,37 +41,37 @@ export function colors(darkMode: boolean): Colors {
     black,
 
     // text
-    text1: darkMode ? '#FFFFFF' : '#000000',
-    text2: darkMode ? '#C3C5CB' : '#565A69',
-    text3: darkMode ? '#6C7284' : '#888D9B',
-    text4: darkMode ? '#565A69' : '#C3C5CB',
-    text5: darkMode ? '#2C2F36' : '#fff8bf',
+    text1: darkMode ? '#000000' : '#000000',
+    text2: darkMode ? '#565A69' : '#565A69',
+    text3: darkMode ? '#888D9B' : '#888D9B',
+    text4: darkMode ? '#C3C5CB' : '#C3C5CB',
+    text5: darkMode ? '#fff8bf' : '#fff8bf',
 
     // backgrounds / greys
-    bg1: darkMode ? '#212429' : '#FFFFFF',
-    bg2: darkMode ? '#2C2F36' : '#faf7e1',
-    bg3: darkMode ? '#40444F' : '#fff8bf',
-    bg4: darkMode ? '#565A69' : '#CED0D9',
-    bg5: darkMode ? '#6C7284' : '#888D9B',
+    bg1: darkMode ? '#FFFFFF' : '#FFFFFF',
+    bg2: darkMode ? '#faf7e1' : '#faf7e1',
+    bg3: darkMode ? '#fff8bf' : '#fff8bf',
+    bg4: darkMode ? '#CED0D9' : '#CED0D9',
+    bg5: darkMode ? '#888D9B' : '#888D9B',
 
     //specialty colors
-    modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
-    advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
+    modalBG: darkMode ? 'rgba(0,0,0,0.3)' : 'rgba(0,0,0,0.3)',
+    advancedBG: darkMode ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: darkMode ? '#2172E5' : '#ffb700',
-    primary2: darkMode ? '#3680E7' : '#FF8CC3',
-    primary3: darkMode ? '#4D8FEA' : '#ffb700',
-    primary4: darkMode ? '#376bad70' : '#F6DDE8',
-    primary5: darkMode ? '#153d6f70' : '#fff5b3',
+    primary1: darkMode ? '#ffb700' : '#ffb700',
+    primary2: darkMode ? '#FF8CC3' : '#FF8CC3',
+    primary3: darkMode ? '#ffb700' : '#ffb700',
+    primary4: darkMode ? '#F6DDE8' : '#F6DDE8',
+    primary5: darkMode ? '#fff5b3' : '#fff5b3',
 
     // color text
-    primaryText1: darkMode ? '#6da8ff' : '#c28b02',
+    primaryText1: darkMode ? '#c28b02' : '#c28b02',
 
     // secondary colors
-    secondary1: darkMode ? '#2172E5' : '#c28b02',
-    secondary2: darkMode ? '#17000b26' : '#F6DDE8',
-    secondary3: darkMode ? '#17000b26' : '#fff5b3',
+    secondary1: darkMode ? '#c28b02' : '#c28b02',
+    secondary2: darkMode ? '#F6DDE8' : '#F6DDE8',
+    secondary3: darkMode ? '#fff5b3' : '#fff5b3',
 
     // other
     red1: '#FF6871',
@@ -98,7 +98,7 @@ export function theme(darkMode: boolean): DefaultTheme {
     },
 
     //shadows
-    shadow1: darkMode ? '#000' : '#2F80ED',
+    shadow1: darkMode ? '#2F80ED' : '#2F80ED',
 
     // media queries
     mediaWidth: mediaWidthTemplates,
